@@ -7,7 +7,7 @@ body {
     font-size: 1.1em;
 }
 
-div.body {
+main {
     text-align: center;
     color: #B8CDFF;
     border-radius: 15px;
@@ -18,16 +18,16 @@ div.body {
     height: 100%;
 }
 
-.body a {
+body a {
     color: #E2A87F;
 }
 
-.header {
+logo pre {
     padding-top: 20px;
   text-align: center;
 }
 
-.sidebar {
+sidebar {
     height: 100%;
     z-index: 1;
     top: 10em;
@@ -38,7 +38,7 @@ div.body {
     position: fixed;
 }
 
-.sidebar a {
+sidebar a {
     color: #E2A87F;
     text-decoration: underline;
     display: block;
